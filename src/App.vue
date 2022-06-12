@@ -17,6 +17,22 @@
   <div class="container-fluid"></div>
 </template>
 
+<script>
+export default {
+  data() {
+    return {};
+  },
+  methods:{
+    startPage(){
+      this.$router.push('/search');
+    }
+  },
+  mounted(){
+     this.$router.push('/imutable');
+  }
+};
+</script>
+
 <style scoped>
 #app {
   width: 90%;
